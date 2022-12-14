@@ -21,4 +21,4 @@
  ![lot summary](images/3-lot-summary.PNG)
   
  * *The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?*  
- If we were to look at all the lots holistically, yes, the suspension coils meet the design specifications since the
+If we were to look at all the lots holistically, yes, the suspension coils meet the design specifications since the variance is under 100 pounts per square inch. But based on the second image above, we note that Lot #3 has a variance of 170.3 pounds, which is greater than the design spec.
