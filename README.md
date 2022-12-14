@@ -37,10 +37,22 @@ The p-values for the lots altogether are above our assumed significance level of
 However, when we calculate the one-sample t-test for each lot individually, we can see that the p-value for lot #3 only is less than 0.05%, which means that we accept our alternate hypothesis that there is indeed a statistical difference between the mean of lot #3 and the population mean of 1,500 lbs.
 
 
+## Study Design: MechaCar vs Competition
+* *Write a short description of a statistical study that can quantify how the MechaCar performs against the competition. In your study design, think critically about what metrics would be of interest to a consumer: for a few examples, cost, city or highway fuel efficiency, horse power, maintenance cost, or safety rating.*  
 
+I would conduct a test based on city fuel efficiency and horse power at MechaCar compared against comparitve cars fron a competitor's. I would be interested to see whether there is a statistical difference between the fuel efficiency and horse power between the two dealerships(?).
 
+* *What metric or metrics are you going to test?*  
+Fuel Efficiency & Horse Power
 
+* *What is the null hypothesis or alternative hypothesis?*  
+The Null Hypothesis would be that there is no difference between the fuel efficiency & horse power on cars at MechaCars and comparative cars at competitor's.
+The Alternative Hypothesis would be that there is a statistical difference between the fuel efficiency & horse power on cars at MechaCars and similar cars at competitor's.
 
+* *What statistical test would you use to test the hypothesis? And why?*  
+The test I would use is similar test carried out in this challenge; one-sample t-test. Before performing the t-test, I would also make sure that a normality test like the Shapiro Wilk test is performed, so that I can know that the sample fits a normal distribution.
 
+* *What data is needed to run the statistical test?*  
+The data required would be datasets from both MechaCars and competitors, based on as many cars they each have (so the sample we use is ample enough) with mainly fuel efficiency (mpg) and horse power, for each respective cars.
 
 
